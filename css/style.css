@@ -12,39 +12,54 @@ header {
     height: 20vh;
     margin: 0;
     align-items: center;
+    display: flex;
 }
 
 header h1 {
+    display: flex;
+    margin: auto;
     text-align: center;
-    margin: 0;
-    padding: 5vh;
-    vertical-align: center;
-    font-size: 4rem;
+    font-size: 8vh;
 }
 
 .color-head {
     text-align: center;
     border-bottom: 3px solid black;
     width: 75%;
-    margin: 20px auto;
-    font-size: 3rem;
+    margin: 3vh auto;
+    font-size: 6vh;
+}
+
+.color-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.color-section {
+    flex: 1;
+    margin-top: 10vh;
+}
+
+.color-section:first-child {
+    margin-left: 12vw;
 }
 
 .color-dot {
-    border: 1px solid #A3D4F0;
+    border: 1px solid black;
     background-color: #A3D4F0;
-    position: relative;
-    margin: auto 10%;
-    top: 3rem;
-    width: 7rem;
-    height: 7rem;
+    padding: 3rem 3.5rem;
     border-radius: 50%;
-    display: inline-block;
 }
 
-.color-dot p {
-    margin-left: 10rem;
-    margin-top: 2.5rem;
+
+.color-name {
+    margin-left: 1vw;
     white-space: nowrap;
-    font-size: 1.5rem;
+    font-size: 4vh;
+}
+
+.color-hex {
+    margin-left: 1vw;
+    white-space: nowrap;
+    font-size: 4vh;
 }
