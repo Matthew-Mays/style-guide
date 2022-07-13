@@ -4,7 +4,6 @@ html, body {
     margin: 0;
     padding: 0;
     overflow-x: hidden;
-    overflow-y: hidden;
 }
 
 header {
@@ -19,10 +18,10 @@ header h1 {
     display: flex;
     margin: auto;
     text-align: center;
-    font-size: 8vh;
+    font-size: 5vmax;
 }
 
-.color-head {
+.section-head {
     text-align: center;
     border-bottom: 3px solid black;
     width: 75%;
@@ -81,4 +80,82 @@ header h1 {
 
 #mulberry {
     background-color: #7F3B5F;
+}
+
+.font-container {
+    text-align: center;
+    position: relative;
+}
+
+.font-panel {
+    display: inline-block;
+    text-align: left;
+    width: 50%;
+}
+
+.font-info {
+    font-size: 1.5rem;
+}
+
+.font-name {
+    text-decoration: underline;
+    font-size: 2rem;
+}
+
+.font-bold {
+    font-weight: bold;
+}
+
+.font-italic {
+    font-style: italic;
+}
+
+#roboto-slab {
+    font-family: 'Roboto Slab';
+}
+
+#monsterrat {
+    font-family: 'Monsterrat';
+}
+
+#shadow-light {
+    font-family: 'Shadows Into Light';
+}
+
+#press-start {
+    font-family: 'Press Start 2P';
+}
+
+#press-start p {
+    font-size: 1.5rem;
+}
+
+.ts-container {
+    text-align: center;
+    position: relative;
+}
+
+.ts-panel {
+    display: inline-block;
+    text-align: left;
+    width: 75%;
+    margin: auto;
+}
+
+.ts-panel h1 {
+    font-weight: 700;
+    font-size: 5vmax;
+}
+
+.ts-panel h2 {
+    font-weight: 500;
+    font-size: 3vmax;
+}
+
+.ts-panel p {
+    font-size: 1.5vmax;
+}
+
+.ts-info {
+    font-size: 1.5vmax;
 }
