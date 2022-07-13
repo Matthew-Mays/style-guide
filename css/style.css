@@ -37,16 +37,11 @@ header h1 {
 
 .color-section {
     flex: 1;
-    margin-top: 10vh;
-}
-
-.color-section:first-child {
-    margin-left: 12vw;
+    margin: 15vh 0 0 10vw;
 }
 
 .color-dot {
     border: 1px solid black;
-    background-color: #A3D4F0;
     padding: 3rem 3.5rem;
     border-radius: 50%;
 }
@@ -62,4 +57,28 @@ header h1 {
     margin-left: 1vw;
     white-space: nowrap;
     font-size: 4vh;
+}
+
+#caribbean {
+    background-color: #A3D4F0;
+}
+
+#cool-aqua {
+    background-color: #18AFBB;
+}
+
+#new-dawn {
+    background-color: #F79547;
+}
+
+#cookie-dough {
+    background-color: #F6E3C3;
+}
+
+#dragon-blood {
+    background-color: #AB4830;
+}
+
+#mulberry {
+    background-color: #7F3B5F;
 }
